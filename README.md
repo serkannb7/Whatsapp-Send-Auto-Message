@@ -15,7 +15,7 @@ or
 
 - pip3 install pywhatkit
 
- +++ PyWhatKit officially supports Python 3.8+.
+(PyWhatKit officially supports Python 3.8+.)
 
 
 
