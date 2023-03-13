@@ -1,11 +1,3 @@
-print("""************************************************
-
-
-Whatsapp Otomatik Mesaj Gönderme Uygulaması...
-
-
-************************************************|\n""")
-
 import pywhatkit
 import pyautogui
 
