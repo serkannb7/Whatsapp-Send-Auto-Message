@@ -2,14 +2,15 @@ import pywhatkit
 import pyautogui
 
 try:
-    TELEFON_NO = input("Telefon Numarasını Girin...\n" "(Başına '+90' eklemeyi unutmayın !!! )\n")
-    MESAJ = input("Mesajınızı Girin...\n")
-    SAAT = int(input("Saati Girin...\n"))
-    DAKIKA = int(input("Dakika Girin....\n"))
-    pywhatkit.sendwhatmsg(TELEFON_NO,MESAJ,SAAT,DAKIKA,40)
+    PHONE_NUMBER = input("Enter Phone Number...\n" "(Don't forget to add 'calling codes (+90 for TURKEY )' at the beginning!!! )\n")
+    MESSAGE = input("Enter your message...\n")
+    HOUR = int(input("Enter hour...\n"))
+    MINUTE = int(input("Enter minute....\n"))
+    pywhatkit.sendwhatmsg(PHONE_NUMBER, MESSAGE, HOUR, MINUTE, 40)
     pyautogui.press('enter')
-    print("Mesaj GÖnderildi")
+    print("Message Sent")
 except:
-    print("HATA !")
+    print("ERROR!")
+
 
 
